@@ -78,7 +78,7 @@ int main()
      printf("distance\n");
     for(int i = 0 ; i<n ; i++)
     {
-        distance[i]=(x1=Age[i])*(x1-Age[i])+(x2-Gender[i])*(x2-Gender[i])+(x3-Polyuria[i])*(x3-Polyuria[i])+(x4-Polydipsia[i])*(x4-Polydipsia[i])+(x5-WeightLoss[i])*(x5-WeightLoss[i])+(x6-Weakness[i])*(x6-Weakness[i])+(x7-Polyphagia[i])*(x7-Polyphagia[i])+(x8-GenitalThrush[i])*(x8-GenitalThrush[i])+(x9-VisualBlurring[i])*(x9-VisualBlurring[i])+(x10-Itching[i])*(x10-Itching[i])+(x11-Irritability[i])*(x11-Irritability[i])+(x12-DelayedHealing[i])*(x12-DelayedHealing[i])+(x13-PartialParesis[i])*(x13-PartialParesis[i])+(x14-MuscleStiffness[i])*(x14-MuscleStiffness[i])+(x15-Alopecia[i])*(x15-Alopecia[i])+(x16-Obesity[i])*(x16-Obesity[i]);
+        distance[i]=(x1-Age[i])*(x1-Age[i])+(x2-Gender[i])*(x2-Gender[i])+(x3-Polyuria[i])*(x3-Polyuria[i])+(x4-Polydipsia[i])*(x4-Polydipsia[i])+(x5-WeightLoss[i])*(x5-WeightLoss[i])+(x6-Weakness[i])*(x6-Weakness[i])+(x7-Polyphagia[i])*(x7-Polyphagia[i])+(x8-GenitalThrush[i])*(x8-GenitalThrush[i])+(x9-VisualBlurring[i])*(x9-VisualBlurring[i])+(x10-Itching[i])*(x10-Itching[i])+(x11-Irritability[i])*(x11-Irritability[i])+(x12-DelayedHealing[i])*(x12-DelayedHealing[i])+(x13-PartialParesis[i])*(x13-PartialParesis[i])+(x14-MuscleStiffness[i])*(x14-MuscleStiffness[i])+(x15-Alopecia[i])*(x15-Alopecia[i])+(x16-Obesity[i])*(x16-Obesity[i]);
         distance1[i] = distance[i];
         printf("%d ",distance1[i]);
     }
